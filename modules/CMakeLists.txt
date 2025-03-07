@@ -1,5 +1,8 @@
 cmake_minimum_required (VERSION 3.8.1)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # imgui library: imgui is build by default, but you can
 # provide your own version by setting QTIMGUI_BUILD_IMGUI to OFF
 option(QTIMGUI_BUILD_IMGUI "Use imgui provided as qtimgui submodule" ON)
